@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ilikauploadermanager:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:8080
+    command: >
+      sh -c "cd /home/ilikauploadermanager && sudo npm run build && sudo serve -n -s build -p 80"

@@ -1,0 +1,26 @@
+* {
+    border-radius: 0 !important;
+}
+html, body {
+    width:100%;
+    height:100%;
+    margin: 'auto';
+}
+.modal-loading {
+    max-width: 200px;
+    text-align: center;
+}
+#root, #base {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+#container {
+    width: 100%;
+    height: 100%;
+}
+.modal-msg{
+    width: 700px;
+    min-width: 700px;
+}
